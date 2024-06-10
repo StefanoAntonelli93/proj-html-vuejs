@@ -10,6 +10,7 @@ export default {
     <div class="header-contacts">
         <div class="container d-flex justify-content-between">
             <div class="contact-numbers">
+                <font-awesome-icon class="pe-3" icon="fa-solid fa-phone" />
                 <span>(001) 88451234</span>
                 <span>88455438</span>
             </div>
@@ -37,6 +38,7 @@ export default {
             </div>
             <div class="actions d-flex align-items-center">
                 <div class="button ">PURCHASE</div>
+                <font-awesome-icon class="clickable secondary-color ps-4" icon="fa-solid fa-magnifying-glass" />
             </div>
         </div>
 
@@ -44,6 +46,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../assets/scss/partials/_variables.scss' as *;
+
 * {
     user-select: none;
 }
@@ -68,6 +72,10 @@ export default {
     -webkit-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
+
+    .clickable {
+        cursor: pointer;
+    }
 }
 
 .sections {
@@ -85,7 +93,7 @@ export default {
     .button {
         padding: 15px 30px;
         border-radius: 30px;
-        background: linear-gradient(90deg, rgba(153, 225, 94, 1) 0%, rgba(0, 217, 166, 1) 100%);
+        background: linear-gradient(90deg, rgba(153, 225, 94, 1) 0%, $secondary-color 100%);
         color: white;
         cursor: pointer;
     }
