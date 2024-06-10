@@ -13,15 +13,18 @@ export default {
                 <span>(001) 88451234</span>
                 <span>88455438</span>
             </div>
-            <div class="social-links">
-                ciao
+            <div class="social-links d-flex align-items-center gap-4">
+                <font-awesome-icon icon="fa-brands fa-facebook-f" />
+                <font-awesome-icon icon="fa-brands fa-twitter" />
+                <font-awesome-icon icon="fa-brands fa-pinterest-p" />
             </div>
         </div>
     </div>
     <div class="header-content">
         <div class="container py-4 position-relative d-flex justify-content-between align-items-center">
             <div class="logo">
-                <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png"
+                <img draggable="false"
+                    src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png"
                     alt="">
             </div>
             <div class="sections d-flex align-items-center">
@@ -56,6 +59,7 @@ export default {
 
     .social-links {
         color: white;
+        cursor: pointer;
     }
 }
 
