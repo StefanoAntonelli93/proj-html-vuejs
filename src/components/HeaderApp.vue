@@ -6,6 +6,12 @@ export default {
 </script>
 
 <template>
+    <div class="header-contacts d-flex justify-content-between">
+        <div class="contact-numbers">
+            <span>(001) 88451234</span>
+            <span>88455438</span>
+        </div>
+    </div>
     <div class="header-content px-5 py-4 position-relative d-flex justify-content-between align-items-center">
         <div class="logo">
             <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png" alt="">
@@ -25,6 +31,16 @@ export default {
 </template>
 
 <style scoped lang="scss">
+.header-contacts {
+    background-color: #3C3C3C;
+    color: white;
+    padding: 10px 37px;
+
+    span {
+        margin-right: 15px;
+    }
+}
+
 .header-content {
     // SFUMATURA AL DI SOTTO DELL HEADER
     -webkit-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
@@ -39,7 +55,7 @@ export default {
     transform: translateX(-50%);
 
     span {
-        margin-right: 5px;
+        margin-right: 30px;
     }
 }
 
