@@ -6,27 +6,36 @@ export default {
 </script>
 
 <template>
-    <div class="header-contacts d-flex justify-content-between">
-        <div class="contact-numbers">
-            <span>(001) 88451234</span>
-            <span>88455438</span>
+    <div class="header-contacts">
+        <div class="container d-flex justify-content-between">
+            <div class="contact-numbers">
+                <span>(001) 88451234</span>
+                <span>88455438</span>
+            </div>
+            <div class="social-links">
+                bla bla bla
+            </div>
         </div>
     </div>
-    <div class="header-content px-5 py-4 position-relative d-flex justify-content-between align-items-center">
-        <div class="logo">
-            <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png" alt="">
+    <div class="header-content">
+        <div class="container py-4 position-relative d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png"
+                    alt="">
+            </div>
+            <div class="sections d-flex align-items-center">
+                <span>HOME</span>
+                <span>HOME</span>
+                <span>HOME</span>
+                <span>HOME</span>
+                <span>HOME</span>
+                <span>HOME</span>
+            </div>
+            <div class="actions d-flex align-items-center">
+                <div class="button ">PURCHASE</div>
+            </div>
         </div>
-        <div class="sections d-flex align-items-center">
-            <span>HOME</span>
-            <span>HOME</span>
-            <span>HOME</span>
-            <span>HOME</span>
-            <span>HOME</span>
-            <span>HOME</span>
-        </div>
-        <div class="actions d-flex align-items-center">
-            <div class="button ">PURCHASE</div>
-        </div>
+
     </div>
 </template>
 
