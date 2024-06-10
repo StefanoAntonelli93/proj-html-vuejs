@@ -1,4 +1,5 @@
 <script>
+
 export default {
     name: 'HeaderApp',
 
@@ -13,7 +14,7 @@ export default {
                 <span>88455438</span>
             </div>
             <div class="social-links">
-                bla bla bla
+                ciao
             </div>
         </div>
     </div>
@@ -40,6 +41,10 @@ export default {
 </template>
 
 <style scoped lang="scss">
+* {
+    user-select: none;
+}
+
 .header-contacts {
     background-color: #3C3C3C;
     color: white;
@@ -47,6 +52,10 @@ export default {
 
     span {
         margin-right: 15px;
+    }
+
+    .social-links {
+        color: white;
     }
 }
 
