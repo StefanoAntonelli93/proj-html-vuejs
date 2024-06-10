@@ -28,7 +28,7 @@ export default {
                     src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png"
                     alt="">
             </div>
-            <div class="sections d-flex align-items-center">
+            <div class="sections d-flex gap-5 align-items-center">
                 <span>HOME</span>
                 <span>HOME</span>
                 <span>HOME</span>
@@ -83,10 +83,6 @@ export default {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-
-    span {
-        margin-right: 30px;
-    }
 }
 
 .actions {
