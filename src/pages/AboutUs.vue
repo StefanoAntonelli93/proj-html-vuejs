@@ -17,7 +17,7 @@ export default {
     <section>
         <div class="we-are d-flex">
             <div class="text-area d-flex gap-5 flex-column">
-                <div class="h1 me-1">We are a creative web
+                <div class="h2 me-1">We are a creative web
                     <span class="secondary-color">design agency</span>
                 </div>
                 <Separator></Separator>
