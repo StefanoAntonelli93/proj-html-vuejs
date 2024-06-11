@@ -34,6 +34,6 @@ header {
 }
 
 main {
-  padding-top: 200px;
+  padding-top: 147.7px;
 }
 </style>

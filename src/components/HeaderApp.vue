@@ -8,6 +8,7 @@ export default {
 
 <template>
     <div class="header-contacts">
+        <!-- COME GESTIRE IL CONTAINER? -->
         <div class="container d-flex justify-content-between">
             <div class="contact-numbers">
                 <font-awesome-icon class="pe-3" icon="fa-solid fa-phone" />
