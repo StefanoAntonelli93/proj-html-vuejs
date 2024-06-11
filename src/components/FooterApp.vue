@@ -12,6 +12,7 @@ export default {
 <template>
   <div class="footer-background-white py-5">
     <div class="container d-flex flex-wrap justify-content-center py-5 gap-4">
+      <!-- LOGO  -->
       <div class="col">
         <div class="content pe-4">
           <img
@@ -26,6 +27,7 @@ export default {
           </div>
         </div>
       </div>
+      <!-- QUICK LINKS -->
       <div class="col">
         <div class="content d-flex flex-column gap-4">
           <div class="title fs-5 fw-semibold">QUICK LINKS</div>
@@ -52,6 +54,7 @@ export default {
           </div>
         </div>
       </div>
+      <!-- CONTACTS -->
       <div class="col">
         <div class="content d-flex flex-column gap-4">
           <div class="title fs-5 fw-semibold">CONTACTS</div>
@@ -66,6 +69,7 @@ export default {
           </div>
         </div>
       </div>
+      <!-- MAP -->
       <div class="col">
         <div class="content d-flex flex-column gap-4">
           <div class="title fs-5 fw-semibold">LOCATION ON MAP</div>
