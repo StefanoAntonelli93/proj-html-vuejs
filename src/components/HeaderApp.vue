@@ -32,11 +32,11 @@ export default {
                 </div>
                 <div class="sections d-flex gap-5 align-items-center">
                     <span>HOME</span>
-                    <span>HOME</span>
-                    <span>HOME</span>
-                    <span>HOME</span>
-                    <span>HOME</span>
-                    <span>HOME</span>
+                    <span>ABOUT</span>
+                    <span>SERVICES</span>
+                    <span>SHOWCASE</span>
+                    <span>BLOG</span>
+                    <span>CONTACT</span>
                 </div>
                 <div class="actions d-flex align-items-center">
                     <div class="button ">PURCHASE</div>
