@@ -69,11 +69,11 @@ export default {
     </div>
   </div>
   <!-- send message -->
-  <div class="send-messag ps-3">
+  <div class="p-5">
     <div class="row justify-content-between">
       <div class="col-4">
         <div class="content py-5">
-          <div class="h1">
+          <div class="h2">
             Please get in <span class="highlighted-text">touch</span> with
             <span class="highlighted-text">us</span>
           </div>
@@ -88,7 +88,29 @@ export default {
           </p>
         </div>
       </div>
-      <div class="col-6">send message</div>
+      <div class="col-6">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Example textarea</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+      </div>
     </div>
   </div>
 </template>
