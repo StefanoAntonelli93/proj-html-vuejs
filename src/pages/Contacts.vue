@@ -70,7 +70,7 @@ export default {
   </div>
   <!-- send message -->
   <div class="p-5">
-    <div class="row justify-content-between">
+    <div class="row justify-content-around">
       <div class="col-4">
         <div class="content py-5">
           <div class="h2">
@@ -90,6 +90,7 @@ export default {
       </div>
       <div class="col-6">
         <div class="mb-3">
+          <div class="h3 fw-bold">Send message</div>
           <label for="exampleFormControlInput1" class="form-label"
             >Email address</label
           >
