@@ -31,12 +31,24 @@ export default {
                         alt="">
                 </div>
                 <div class="sections d-flex gap-5 align-items-center">
-                    <span>HOME</span>
-                    <span>ABOUT</span>
-                    <span>SERVICES</span>
-                    <span>SHOWCASE</span>
-                    <span>BLOG</span>
-                    <span>CONTACT</span>
+                    <router-link class="link" :to="{ name: 'home' }">
+                        <span>HOME</span>
+                    </router-link>
+                    <router-link class="link" :to="{ name: 'about' }">
+                        <span>ABOUT</span>
+                    </router-link>
+                    <router-link class="link" :to="{ name: 'home' }">
+                        <span>SERVICES</span>
+                    </router-link>
+                    <router-link class="link" :to="{ name: 'home' }">
+                        <span>SHOWCASE</span>
+                    </router-link>
+                    <router-link class="link" :to="{ name: 'home' }">
+                        <span>BLOG</span>
+                    </router-link>
+                    <router-link class="link" :to="{ name: 'contacts' }">
+                        <span>CONTACTS</span>
+                    </router-link>
                 </div>
                 <div class="actions d-flex align-items-center">
                     <div class="button ">PURCHASE</div>
