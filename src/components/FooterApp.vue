@@ -1,9 +1,11 @@
 <script>
 import Separator from "./Separator.vue";
+import MapElement from "./MapElement.vue";
 export default {
   name: "footer",
   components: {
     Separator,
+    MapElement,
   },
 };
 </script>
@@ -59,16 +61,7 @@ export default {
           <div class="title fs-5 fw-semibold">LOCATION ON MAP</div>
           <Separator />
           <div>
-            <iframe
-              class="footer-map"
-              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1765229.925940875!2d-98.51356766187001!3d32.9096499308089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%204401%20Waldeck%20Street%20Grapevine%20Nashville%2C%20TX%2076051!5e0!3m2!1sit!2sit!4v1718111659643!5m2!1sit!2sit"
-              width="400"
-              height="300"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <MapElement :myWidth="1500" :myHeight="600" />
           </div>
         </div>
       </div>
