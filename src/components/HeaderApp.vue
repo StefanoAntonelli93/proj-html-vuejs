@@ -31,7 +31,6 @@ export default {
                         alt="">
                 </div>
                 <div class="sections d-flex gap-5 align-items-center">
-                    <!-- CAPIRE COME USARE ACTIVECLASS DI ROUTER -->
                     <router-link activeClass="fw-bold" class="link" :to="{ name: 'home' }">
                         <span>HOME</span>
                     </router-link>
@@ -107,6 +106,7 @@ export default {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    font-size: small;
 
     .link {
         text-decoration: none;
