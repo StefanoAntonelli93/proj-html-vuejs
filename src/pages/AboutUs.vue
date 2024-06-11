@@ -17,14 +17,14 @@ export default {
     <section>
         <div class="we-are d-flex">
             <div class="text-area d-flex gap-5 flex-column">
-                <h2>We are a creative web
-                    <div class="secondary-color">design agency</div>
-                </h2>
+                <div class="h1 me-1">We are a creative web
+                    <span class="secondary-color">design agency</span>
+                </div>
+                <Separator></Separator>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
                     blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
                     ocean.Separated they live in Bookmarksgrove.
                 </p>
-                <Separator></Separator>
                 <div>
                     <div class="button">
                         READ MORE
@@ -118,9 +118,6 @@ export default {
 
 
 .content-card {
-
-
-
     .circle {
         border: 3px solid #7AE6AF;
         border-radius: 50%;
@@ -134,7 +131,6 @@ export default {
 
     .card-title {
         font-size: 1.6rem;
-
     }
 
     &:hover {
