@@ -38,6 +38,33 @@ export default {
             </div>
         </div>
     </section>
+    <section>
+        <div class="our-vision">
+            <div class="gradient-mask">
+                <div class="content d-flex flex-column gap-5 align-items-center">
+                    <span>Our Vision</span>
+                    <Separator></Separator>
+                    <div class="features row row-cols-4 g-5">
+                        <div class="col">
+                            <div
+                                class="content-card py-5 px-5 d-flex flex-column gap-2 align-items-center justify-content-between">
+                                <div class="circle">
+                                    <font-awesome-icon icon="fa-solid fa-database" />
+                                </div>
+                                <div class="card-title">
+                                    Virtual Document
+                                </div>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+                            </div>
+                        </div>
+                        <div class="col">Flexible Payments</div>
+                        <div class="col">SEO Tools</div>
+                        <div class="col">UI Design</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
 
 <style scoped lang="scss">
@@ -67,6 +94,51 @@ export default {
         img {
             width: 100%;
         }
+    }
+}
+
+.our-vision {
+    background-image: url('https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/interior-PTCVAAC@2x.jpg');
+    background-size: cover;
+
+    .gradient-mask {
+        background: rgb(153, 225, 94);
+        background: linear-gradient(225deg, rgba(153, 225, 94, 0.9) 0%, rgba(0, 217, 166, 0.9) 100%);
+        width: 100%;
+        height: 100%;
+        padding: 150px 0;
+        color: white;
+
+
+        .features {
+            width: 100%;
+        }
+    }
+}
+
+
+.content-card {
+
+
+
+    .circle {
+        border: 3px solid #7AE6AF;
+        border-radius: 50%;
+        width: 135px;
+        height: 135px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+
+    &:hover {
+        background-color: rgba(39, 39, 39, 0.2);
+        border-radius: 15px;
     }
 }
 </style>
