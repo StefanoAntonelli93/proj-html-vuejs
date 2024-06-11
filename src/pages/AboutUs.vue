@@ -47,14 +47,15 @@ export default {
                     <div class="features row row-cols-4 g-5">
                         <div class="col">
                             <div
-                                class="content-card py-5 px-5 d-flex flex-column gap-2 align-items-center justify-content-between">
+                                class="content-card py-5 d-flex flex-column gap-2 align-items-center justify-content-between">
                                 <div class="circle">
                                     <font-awesome-icon class="fa-4x" icon="fa-solid fa-database" />
                                 </div>
-                                <div class="card-title">
+                                <div class="h3">
                                     Virtual Document
                                 </div>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+                                <p class="px-5">Far far away, behind the word mountains, far from the countries Vokalia..
+                                </p>
                             </div>
                         </div>
                         <div class="col">Flexible Payments</div>
