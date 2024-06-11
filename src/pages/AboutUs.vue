@@ -1,11 +1,38 @@
 <script>
 import Separator from '../components/Separator.vue';
+import WhiteSeparator from '../components/WhiteSeparator.vue';
 import TitlePage from '../components/TitlePage.vue';
+import ServiceCard from '../components/ServiceCard.vue';
 
 export default {
+    data() {
+        return {
+            cardData: [
+                {
+                    icon: 'fa-solid fa-database',
+                    name: 'Virtual Document'
+                },
+                {
+                    icon: 'fa-solid fa-money-bill-1-wave',
+                    name: 'Flexible Payments'
+                },
+                {
+                    icon: 'fa-solid fa-gauge-high',
+                    name: 'SEO Tools'
+                },
+                {
+                    icon: 'fa-regular fa-gem',
+                    name: 'UI Design'
+                }
+            ]
+        }
+    },
+
     components: {
         TitlePage,
-        Separator
+        Separator,
+        WhiteSeparator,
+        ServiceCard,
     }
 }
 
@@ -42,25 +69,12 @@ export default {
         <div class="our-vision">
             <div class="gradient-mask">
                 <div class="content d-flex flex-column gap-5 align-items-center">
-                    <span>Our Vision</span>
-                    <Separator></Separator>
+                    <span class="h2 text-white">Our Vision</span>
+                    <WhiteSeparator></WhiteSeparator>
                     <div class="features row row-cols-4 g-5">
-                        <div class="col">
-                            <div
-                                class="content-card py-5 d-flex flex-column gap-2 align-items-center justify-content-between">
-                                <div class="circle">
-                                    <font-awesome-icon class="fa-4x" icon="fa-solid fa-database" />
-                                </div>
-                                <div class="h3">
-                                    Virtual Document
-                                </div>
-                                <p class="px-5">Far far away, behind the word mountains, far from the countries Vokalia..
-                                </p>
-                            </div>
+                        <div class="col" v-for="card in cardData">
+                            <ServiceCard :cardName="card.name" :iconClass="card.icon"></ServiceCard>
                         </div>
-                        <div class="col">Flexible Payments</div>
-                        <div class="col">SEO Tools</div>
-                        <div class="col">UI Design</div>
                     </div>
                 </div>
             </div>
@@ -114,29 +128,6 @@ export default {
         .features {
             width: 100%;
         }
-    }
-}
-
-
-.content-card {
-    .circle {
-        border: 3px solid #7AE6AF;
-        border-radius: 50%;
-        width: 135px;
-        height: 135px;
-        margin: 20px 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .card-title {
-        font-size: 1.6rem;
-    }
-
-    &:hover {
-        background-color: rgba(39, 39, 39, 0.2);
-        border-radius: 15px;
     }
 }
 </style>

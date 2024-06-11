@@ -22,6 +22,9 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 import { faStopwatch } from "@fortawesome/free-solid-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { faMoneyBill1Wave } from "@fortawesome/free-solid-svg-icons";
+import { faGaugeHigh } from "@fortawesome/free-solid-svg-icons";
+import { faGem } from "@fortawesome/free-regular-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -33,7 +36,10 @@ library.add(
     faLocationDot,
     faPhoneVolume,
     faStopwatch,
-    faDatabase
+    faDatabase,
+    faMoneyBill1Wave,
+    faGaugeHigh,
+    faGem
 );
 
 createApp(App)
