@@ -4,10 +4,10 @@ export default {
 };
 </script>
 <template>
-  <div class="footer-background-white">
-    <div class="container d-flex flex-wrap justify-content-center py-5 gap-3">
+  <div class="footer-background-white py-5">
+    <div class="container d-flex flex-wrap justify-content-center py-5 gap-4">
       <div class="col">
-        <div class="content">
+        <div class="content pe-4">
           <img
             draggable="false"
             src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/05/cropped-Group-39@2x.png"
@@ -22,9 +22,9 @@ export default {
       </div>
       <div class="col">
         <div class="content">
-          <div class="title">QUICK LINKS</div>
+          <div class="title fs-5">QUICK LINKS</div>
           <hr />
-          <ul class="list-unstyled">
+          <ul class="list-unstyled overlay">
             <li><a class="text-decoration-none" href="">Careers</a></li>
             <li><a class="text-decoration-none" href=""> News</a></li>
             <li><a class="text-decoration-none" href="">Terms of use</a></li>
@@ -38,20 +38,23 @@ export default {
       </div>
       <div class="col">
         <div class="content">
-          <div class="title">titolo</div>
+          <div class="title fs-5">CONTACTS</div>
           <hr />
-          <ul>
-            <li><a href="">link</a></li>
-          </ul>
+          <div class="contacts-content">
+            <P
+              >Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX
+              76051
+            </P>
+            <p>info@yourdomain.com</p>
+            <p>+99 (0) 101 0000 888</p>
+          </div>
         </div>
       </div>
       <div class="col">
         <div class="content">
-          <div class="title">titolo</div>
+          <div class="title fs-5">LOCATION ON MAP</div>
           <hr />
-          <ul>
-            <li><a href="">link</a></li>
-          </ul>
+          <div>mappa</div>
         </div>
       </div>
     </div>
@@ -76,7 +79,12 @@ export default {
 }
 li a {
   color: black;
+
+  &:hover {
+    color: $secondary-color;
+  }
 }
+
 .social-links {
   cursor: pointer;
 }

@@ -12,4 +12,6 @@ Annarita
 Gianluigi
 Stefano
 
-# annotazioni
+# FAQ
+
+- gestione dei font in typography non funziona, ordine dei file? import/use qual'è la priorità?
