@@ -5,7 +5,7 @@ export default {
 </script>
 <template>
   <div class="footer-background-white">
-    <div class="container d-flex flex-wrap justify-content-center py-5">
+    <div class="container d-flex flex-wrap justify-content-center py-5 gap-3">
       <div class="col">
         <div class="content">
           <img
@@ -22,7 +22,7 @@ export default {
       </div>
       <div class="col">
         <div class="content">
-          <h2 class="title">quick links</h2>
+          <div class="title">QUICK LINKS</div>
           <hr />
           <ul class="list-unstyled">
             <li><a class="text-decoration-none" href="">Careers</a></li>
@@ -76,5 +76,8 @@ export default {
 }
 li a {
   color: black;
+}
+.social-links {
+  cursor: pointer;
 }
 </style>
