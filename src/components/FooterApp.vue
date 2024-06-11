@@ -1,6 +1,10 @@
 <script>
+import Separator from "./Separator.vue";
 export default {
   name: "footer",
+  components: {
+    Separator,
+  },
 };
 </script>
 <template>
@@ -21,9 +25,9 @@ export default {
         </div>
       </div>
       <div class="col">
-        <div class="content">
-          <div class="title fs-5">QUICK LINKS</div>
-          <hr />
+        <div class="content d-flex flex-column gap-4">
+          <div class="title fs-5 fw-semibold">QUICK LINKS</div>
+          <Separator />
           <ul class="list-unstyled overlay">
             <li><a class="text-decoration-none" href="">Careers</a></li>
             <li><a class="text-decoration-none" href=""> News</a></li>
@@ -37,10 +41,10 @@ export default {
         </div>
       </div>
       <div class="col">
-        <div class="content">
-          <div class="title fs-5">CONTACTS</div>
-          <hr />
-          <div class="contacts-content">
+        <div class="content d-flex flex-column gap-4">
+          <div class="title fs-5 fw-semibold">CONTACTS</div>
+          <Separator />
+          <div class="contacts-content pe-3">
             <P
               >Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX
               76051
@@ -51,9 +55,9 @@ export default {
         </div>
       </div>
       <div class="col">
-        <div class="content">
-          <div class="title fs-5">LOCATION ON MAP</div>
-          <hr />
+        <div class="content d-flex flex-column gap-4">
+          <div class="title fs-5 fw-semibold">LOCATION ON MAP</div>
+          <Separator />
           <div>mappa</div>
         </div>
       </div>
