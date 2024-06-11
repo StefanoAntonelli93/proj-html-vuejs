@@ -32,7 +32,7 @@ export default {
                 </div>
                 <div class="sections d-flex gap-5 align-items-center">
                     <!-- CAPIRE COME USARE ACTIVECLASS DI ROUTER -->
-                    <router-link class="link" exactActiveClass="text-black" :to="{ name: 'home' }">
+                    <router-link class="link" :to="{ name: 'home' }">
                         <span>HOME</span>
                     </router-link>
                     <router-link class="link" :to="{ name: 'about' }">
@@ -113,7 +113,7 @@ export default {
         color: #3D3D3D;
 
         &:hover {
-            color: $secondary-text-color;
+            color: $secondary-text-color !important;
         }
     }
 
