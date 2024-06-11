@@ -31,7 +31,8 @@ export default {
                         alt="">
                 </div>
                 <div class="sections d-flex gap-5 align-items-center">
-                    <router-link class="link" :to="{ name: 'home' }">
+                    <!-- CAPIRE COME USARE ACTIVECLASS DI ROUTER -->
+                    <router-link class="link" exactActiveClass="text-black" :to="{ name: 'home' }">
                         <span>HOME</span>
                     </router-link>
                     <router-link class="link" :to="{ name: 'about' }">
@@ -106,5 +107,15 @@ export default {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+
+    .link {
+        text-decoration: none;
+        color: #3D3D3D;
+
+        &:hover {
+            color: $secondary-text-color;
+        }
+    }
+
 }
 </style>
