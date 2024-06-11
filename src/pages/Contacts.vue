@@ -12,14 +12,36 @@
       style="border: 0"
       allowfullscreen="true"
       referrerpolicy="no-referrer-when-downgrade"
+      zoom="5"
     ></iframe>
   </div>
   <!-- info card -->
   <div class="info-card">
-    <div class="container d-flex justify-content-between text-center border">
-      <div class="col">1</div>
-      <div class="col">2</div>
-      <div class="col">3</div>
+    <div class="container d-flex justify-content-between gap-5">
+      <div class="col d-flex gap-2 p-4 sfuma">
+        <div class="align-self-center">icon</div>
+        <div class="content p-5">
+          <div class="fw-semibold py-3 fs-3">ADDRESS:</div>
+          <div>123 Ave, Lorem City, site Country, The World</div>
+        </div>
+      </div>
+      <div class="col d-flex gap-2 p-4 sfuma">
+        <div class="align-self-center">icon</div>
+        <div class="content p-5">
+          <div class="fw-semibold py-3 fs-3">PHONE:</div>
+          <div>(001) 123456789 - 234567891 info@phloxbusiness.com</div>
+        </div>
+      </div>
+      <div class="col d-flex gap-2 p-4 sfuma">
+        <div class="align-self-center">icon</div>
+        <div class="content p-5">
+          <div class="fw-semibold py-3 fs-3">WORK HOURS:</div>
+          <div>
+            Monday - Friday <span class="px-2">09.00 - 23.00</span> Sunday
+            <span class="px-2">09.00 - 16.00</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- send message -->
@@ -32,3 +54,11 @@
     </div>
   </div>
 </template>
+
+<style scoped lang="scss">
+.sfuma {
+  -webkit-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
+}
+</style>
