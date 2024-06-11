@@ -49,7 +49,7 @@ export default {
                             <div
                                 class="content-card py-5 px-5 d-flex flex-column gap-2 align-items-center justify-content-between">
                                 <div class="circle">
-                                    <font-awesome-icon icon="fa-solid fa-database" />
+                                    <font-awesome-icon class="fa-4x" icon="fa-solid fa-database" />
                                 </div>
                                 <div class="card-title">
                                     Virtual Document
@@ -126,14 +126,15 @@ export default {
         border-radius: 50%;
         width: 135px;
         height: 135px;
-        margin-bottom: 15px;
+        margin: 20px 0;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .card-title {
-        font-size: 2rem;
+        font-size: 1.6rem;
+
     }
 
     &:hover {

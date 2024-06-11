@@ -21,20 +21,22 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 import { faStopwatch } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
 library.add(
-  faFacebookF,
-  faTwitter,
-  faPinterestP,
-  faMagnifyingGlass,
-  faPhone,
-  faLocationDot,
-  faPhoneVolume,
-  faStopwatch
+    faFacebookF,
+    faTwitter,
+    faPinterestP,
+    faMagnifyingGlass,
+    faPhone,
+    faLocationDot,
+    faPhoneVolume,
+    faStopwatch,
+    faDatabase
 );
 
 createApp(App)
-  .use(router)
-  .component("font-awesome-icon", FontAwesomeIcon)
-  .mount("#app");
+    .use(router)
+    .component("font-awesome-icon", FontAwesomeIcon)
+    .mount("#app");
