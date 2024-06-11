@@ -7,24 +7,34 @@ import App from "./App.vue";
 import { router } from "./router";
 
 /* import the fontawesome core */
-import { library } from '@fortawesome/fontawesome-svg-core'
+import { library } from "@fortawesome/fontawesome-svg-core";
 
 /* import font awesome icon component */
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faPinterestP } from '@fortawesome/free-brands-svg-icons'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
-
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faPinterestP } from "@fortawesome/free-brands-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import { faStopwatch } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
-library.add(faFacebookF, faTwitter, faPinterestP, faMagnifyingGlass, faPhone);
+library.add(
+  faFacebookF,
+  faTwitter,
+  faPinterestP,
+  faMagnifyingGlass,
+  faPhone,
+  faLocationDot,
+  faPhoneVolume,
+  faStopwatch
+);
 
 createApp(App)
-    .use(router)
-    .component('font-awesome-icon', FontAwesomeIcon)
-    .mount("#app");
-
+  .use(router)
+  .component("font-awesome-icon", FontAwesomeIcon)
+  .mount("#app");
