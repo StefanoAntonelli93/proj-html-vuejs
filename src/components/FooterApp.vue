@@ -30,16 +30,26 @@ export default {
         <div class="content d-flex flex-column gap-4">
           <div class="title fs-5 fw-semibold">QUICK LINKS</div>
           <Separator />
-          <ul class="list-unstyled overlay">
-            <li><a class="text-decoration-none" href="">Careers</a></li>
-            <li><a class="text-decoration-none" href=""> News</a></li>
-            <li><a class="text-decoration-none" href="">Terms of use</a></li>
-            <li>
-              <a class="text-decoration-none" href="">Privacy Projects</a>
-            </li>
-            <li><a class="text-decoration-none" href="">About</a></li>
-            <li><a class="text-decoration-none" href="">Contact</a></li>
-          </ul>
+          <div class="overlay d-flex gap-1 flex-column">
+            <router-link class="link">
+              <span>Careers</span>
+            </router-link>
+            <router-link class="link">
+              <span>News</span>
+            </router-link>
+            <router-link class="link">
+              <span>Privacy Projects</span>
+            </router-link>
+            <router-link class="link">
+              <span>Terms of use</span>
+            </router-link>
+            <router-link class="link" :to="{ name: 'about' }">
+              <span>About</span>
+            </router-link>
+            <router-link class="link" :to="{ name: 'contacts' }">
+              <span>Contact</span>
+            </router-link>
+          </div>
         </div>
       </div>
       <div class="col">
@@ -85,8 +95,9 @@ export default {
   background: linear-gradient(90deg, $primary-color 40%, rgba(0, 0, 0, 1) 100%);
   color: $secondary-text-color;
 }
-li a {
-  color: black;
+.link {
+  text-decoration: none;
+  color: #444444;
 
   &:hover {
     color: $secondary-color;
