@@ -88,52 +88,52 @@ export default {
           </p>
         </div>
       </div>
+      <!-- send message form -->
       <div class="col-6">
         <div class="mb-3">
           <div class="h3 fw-bold py-3">Send message</div>
           <div class="row justify-content-center">
-            <div class="col">
+            <div class="col d-flex flex-column">
               <label for="Fullname" class="form-label">Fullname*</label>
               <input
                 type="text"
-                class="form-control"
+                class="bottom-border"
                 id="exampleFormControlInput1"
               />
             </div>
-            <div class="col">
+            <div class="col d-flex flex-column">
               <label for="exampleFormControlInput1" class="form-label"
-                >Email address</label
+                >Email*</label
               >
               <input
                 type="email"
-                class="form-control"
+                class="bottom-border"
                 id="exampleFormControlInput1"
-                placeholder="name@example.com"
               />
             </div>
-            <div class="col">
+            <div class="col d-flex flex-column">
               <label for="exampleFormControlInput1" class="form-label"
                 >Please Insert Phone number</label
               >
               <input
                 type="text"
-                class="form-control"
+                class="bottom-border"
                 id="exampleFormControlInput1"
               />
             </div>
           </div>
         </div>
-        <div class="mb-3">
+        <div class="mb-5 d-flex flex-column">
           <label for="exampleFormControlTextarea1" class="form-label"
-            >Example textarea</label
+            >Message</label
           >
           <textarea
-            class="form-control"
+            class="bottom-border"
             id="exampleFormControlTextarea1"
             rows="3"
           ></textarea>
         </div>
-        <button class="button p-3 fw-bold">SEND NOW</button>
+        <div class="button py-3 fw-bold">SEND NOW</div>
       </div>
     </div>
   </div>
@@ -149,5 +149,11 @@ export default {
 .icon,
 .highlighted-text {
   color: $secondary-color;
+}
+.bottom-border {
+  border: none;
+  border-bottom: 2px solid #000;
+  outline: none;
+  box-shadow: none;
 }
 </style>
