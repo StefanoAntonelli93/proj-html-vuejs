@@ -3,3 +3,11 @@
 .secondary-color {
     color: $secondary-color;
 }
+
+.button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(153, 225, 94, 1) 0%, $secondary-color 100%);
+    color: white;
+    cursor: pointer;
+}

@@ -26,13 +26,6 @@ export default {
 </template>
 
 <style scoped>
-header {
-  z-index: 999;
-  position: fixed;
-  left: 0;
-  right: 0;
-}
-
 main {
   padding-top: 147.7px;
 }
