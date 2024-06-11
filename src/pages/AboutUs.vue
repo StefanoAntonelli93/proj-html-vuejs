@@ -1,9 +1,11 @@
 <script>
+import Separator from '../components/Separator.vue';
 import TitlePage from '../components/TitlePage.vue';
 
 export default {
     components: {
-        TitlePage
+        TitlePage,
+        Separator
     }
 }
 
@@ -22,6 +24,7 @@ export default {
                     blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
                     ocean.Separated they live in Bookmarksgrove.
                 </p>
+                <Separator></Separator>
                 <div>
                     <div class="button">
                         READ MORE

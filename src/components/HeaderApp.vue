@@ -32,22 +32,22 @@ export default {
                 </div>
                 <div class="sections d-flex gap-5 align-items-center">
                     <!-- CAPIRE COME USARE ACTIVECLASS DI ROUTER -->
-                    <router-link class="link" :to="{ name: 'home' }">
+                    <router-link activeClass="fw-bold" class="link" :to="{ name: 'home' }">
                         <span>HOME</span>
                     </router-link>
-                    <router-link class="link" :to="{ name: 'about' }">
+                    <router-link activeClass="fw-bold" class="link" :to="{ name: 'about' }">
                         <span>ABOUT</span>
                     </router-link>
-                    <router-link class="link" :to="{ name: 'home' }">
+                    <router-link class="link">
                         <span>SERVICES</span>
                     </router-link>
-                    <router-link class="link" :to="{ name: 'home' }">
+                    <router-link class="link">
                         <span>SHOWCASE</span>
                     </router-link>
-                    <router-link class="link" :to="{ name: 'home' }">
+                    <router-link class="link">
                         <span>BLOG</span>
                     </router-link>
-                    <router-link class="link" :to="{ name: 'contacts' }">
+                    <router-link activeClass="fw-bold" class="link" :to="{ name: 'contacts' }">
                         <span>CONTACTS</span>
                     </router-link>
                 </div>

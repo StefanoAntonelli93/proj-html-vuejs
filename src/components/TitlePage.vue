@@ -10,8 +10,8 @@ export default {
 </script>
 
 <template>
-    <div class="background d-flex justify-content-center align-items-center">
-        <h1>{{ titlePage }}</h1>
+    <div class="background d-flex justify-content-center align-items-center fw-bold fs-1">
+        <span>{{ titlePage }}</span>
     </div>
 </template>
 
