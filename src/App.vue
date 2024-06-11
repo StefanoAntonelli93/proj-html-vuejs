@@ -1,15 +1,16 @@
 <script>
 // import components
-import HeaderApp from './components/HeaderApp.vue';
-
+import HeaderApp from "./components/HeaderApp.vue";
+import FooterApp from "./components/FooterApp.vue";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     HeaderApp,
-  }
-}
+    FooterApp,
+  },
+};
 </script>
 
 <template>
