@@ -17,8 +17,8 @@ export default {
           <input
             type="text"
             class="form-control"
-            placeholder="Recipient's username"
-            aria-label="Recipient's username"
+            placeholder="Insert Your Email"
+            aria-label="Insert Your Email"
             aria-describedby="button-addon2"
           />
           <button
