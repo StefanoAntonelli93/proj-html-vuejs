@@ -8,18 +8,11 @@
   display: inline;
   padding: 15px 30px;
   border-radius: 30px;
-  background: linear-gradient(
-    90deg,
-    rgba(153, 225, 94, 1) 0%,
-    $secondary-color 100%
-  );
-
+  background: linear-gradient(90deg,
+      rgba(153, 225, 94, 1) 0%,
+      $secondary-color 100%);
   color: white;
   cursor: pointer;
-  -webkit-box-shadow: 5px 4px 35px 4px rgba(11, 218, 161, 0.35);
-  box-shadow: 5px 4px 35px 4px rgba(11, 218, 161, 0.35);
-}
-.shadow-button-green {
-  -webkit-box-shadow: 5px 11px 32px 5px rgba(50, 255, 12, 0.13);
-  box-shadow: 5px 11px 32px 5px rgba(50, 255, 12, 0.13);
+  -webkit-box-shadow: 5px 4px 35px 4px rgba(11, 218, 161, 0.5);
+  box-shadow: 5px 4px 35px 4px rgba(11, 218, 161, 0.5);
 }

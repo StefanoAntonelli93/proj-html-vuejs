@@ -9,7 +9,6 @@ export default {
 <template>
     <div class="main-container">
         <div class="header-contacts">
-            <!-- COME GESTIRE IL CONTAINER? -->
             <div class="container d-flex justify-content-between">
                 <div class="contact-numbers">
                     <font-awesome-icon class="pe-3" icon="fa-solid fa-phone" />
@@ -51,7 +50,7 @@ export default {
                     </router-link>
                 </div>
                 <div class="actions d-flex align-items-center">
-                    <div class="button ">PURCHASE</div>
+                    <div class="button">PURCHASE</div>
                     <font-awesome-icon class="clickable secondary-color ps-4" icon="fa-solid fa-magnifying-glass" />
                 </div>
             </div>
