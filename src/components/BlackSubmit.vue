@@ -28,28 +28,6 @@ export default {
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="content p-5 bg-dark">
-          <p class="text-secondary">Are You Ready?</p>
-          <div class="h3 text-white fw-semibold">Start a New Project</div>
-          <div class="input-group mb-3">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Recipient's username"
-              aria-label="Recipient's username"
-              aria-describedby="button-addon2"
-            />
-            <button
-              class="btn btn-outline-secondary fw-semibold"
-              type="button"
-              id="button-addon2"
-            >
-              SUBMIT
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>

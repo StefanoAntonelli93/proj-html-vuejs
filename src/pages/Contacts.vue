@@ -5,6 +5,7 @@ import ContactsCard from "../components/ContactsCard.vue";
 import ContactsMap from "../components/ContactsMap.vue";
 import ContactsMessage from "../components/ContactsMessage.vue";
 import BlackSubmit from "../components/BlackSubmit.vue";
+import GreenSubmit from "../components/GreenSubmit.vue";
 
 export default {
   components: {
@@ -14,6 +15,7 @@ export default {
     ContactsMap,
     ContactsMessage,
     BlackSubmit,
+    GreenSubmit,
   },
 };
 </script>
@@ -32,6 +34,7 @@ export default {
   <!-- send message -->
   <ContactsMessage />
   <BlackSubmit />
+  <GreenSubmit />
 </template>
 
 <style scoped>
