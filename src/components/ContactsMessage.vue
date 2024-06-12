@@ -1,6 +1,10 @@
 <script>
+import Separator from "../components/Separator.vue";
 export default {
   name: "contactsMessage",
+  components: {
+    Separator,
+  },
 };
 </script>
 <template>
@@ -75,7 +79,8 @@ export default {
     </div>
   </div>
 </template>
-<style scoped>
+<style scoped lang="scss">
+@use "../assets/scss/partials/_variables.scss" as *;
 .message-container {
   margin-top: 300px;
   .bottom-border {
@@ -84,5 +89,8 @@ export default {
     outline: none;
     box-shadow: none;
   }
+}
+.highlighted-text {
+  color: $secondary-color;
 }
 </style>
