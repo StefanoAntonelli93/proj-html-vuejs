@@ -22,11 +22,9 @@ export default {
 
 <template>
     <div class="main-container">
-        <div class="submits">
-            <div class="container d-flex justify-content-center">
-                <BlackSubmit></BlackSubmit>
-                <GreenSubmit></GreenSubmit>
-            </div>
+        <div class="submits d-flex justify-content-center">
+            <BlackSubmit></BlackSubmit>
+            <GreenSubmit></GreenSubmit>
         </div>
         <div class="container">
             <div class="partner-images d-flex justify-content-between align-items-center">
@@ -43,15 +41,12 @@ export default {
 @use '../assets/scss/partials/_variables.scss' as *;
 
 .main-container {
+    width: 100%;
     background: linear-gradient(to top,
             $section-color 0%,
             $section-color 50%,
             white 50%,
             white 100%);
     padding: 200px 0 150px 0;
-
-    .partner-images {
-        width: 100%;
-    }
 }
 </style>
