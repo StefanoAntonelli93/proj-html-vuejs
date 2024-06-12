@@ -83,11 +83,11 @@ export default {
 // SLIDE-FADE
 @keyframes slide-in {
   from {
-    transform: translateX(100%);
+    transform: translateY(100%);
     opacity: 0;
   }
   to {
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -97,7 +97,7 @@ export default {
 }
 
 .slide-fade-enter {
-  transform: translateX(100%);
+  transform: translateY(100%);
   opacity: 0;
 }
 </style>
