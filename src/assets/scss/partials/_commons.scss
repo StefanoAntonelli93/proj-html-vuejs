@@ -16,3 +16,8 @@
   -webkit-box-shadow: 5px 4px 35px 4px rgba(11, 218, 161, 0.5);
   box-shadow: 5px 4px 35px 4px rgba(11, 218, 161, 0.5);
 }
+
+.green-gradient {
+  background: rgb(153, 225, 94);
+  background: linear-gradient(225deg, rgba(153, 225, 94, 1) 0%, rgba(0, 217, 166, 1) 100%);
+}

@@ -48,5 +48,9 @@ export default {
             white 50%,
             white 100%);
     padding: 200px 0 150px 0;
+
+    .partner-images {
+        margin-top: 150px;
+    }
 }
 </style>
