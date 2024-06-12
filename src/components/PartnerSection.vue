@@ -1,5 +1,6 @@
 <script>
-
+import BlackSubmit from './BlackSubmit.vue'
+import GreenSubmit from './GreenSubmit.vue'
 
 export default {
     name: 'PartnerSection',
@@ -32,6 +33,11 @@ export default {
                 },
             ]
         }
+    },
+
+    components: {
+        BlackSubmit,
+        GreenSubmit
     }
 };
 
@@ -39,7 +45,10 @@ export default {
 
 <template>
     <div class="main-container">
-        <!-- QUI CI VA IL COMPONENENTE CARDS -->
+        <div class="submits d-flex">
+            <BlackSubmit></BlackSubmit>
+            <GreenSubmit></GreenSubmit>
+        </div>
         <div class="container">
             <div class="partner-images d-flex justify-content-between align-items-center">
                 <div v-for="partner in partners" class="partner-image">
