@@ -17,6 +17,33 @@
   box-shadow: 5px 4px 35px 4px rgba(11, 218, 161, 0.5);
 }
 
+.fancy-input {
+  display: inline;
+  padding: 15px 30px;
+  border-radius: 30px;
+  background: linear-gradient(90deg,
+      #494949 0%,
+      #373737 100%);
+  color: $secondary-text-color;
+
+  input {
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  span {
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 700;
+  }
+}
+
 .green-gradient {
   background: rgb(153, 225, 94);
   background: linear-gradient(225deg, rgba(153, 225, 94, 1) 0%, rgba(0, 217, 166, 1) 100%);
