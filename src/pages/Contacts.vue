@@ -149,10 +149,10 @@ export default {
 
 .map-container {
   position: relative;
-}
 
-.map {
-  position: relative;
+  .map {
+    position: relative;
+  }
 }
 
 .info-card {
@@ -161,27 +161,25 @@ export default {
   left: 20px;
   width: calc(100% - 40px);
   z-index: 10;
+  .shadows {
+    background-color: white;
+    -webkit-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
+  }
+  .icon,
+  .highlighted-text {
+    color: $secondary-color;
+  }
 }
 
-.shadows {
-  background-color: white;
-  -webkit-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
-}
-
-.icon,
-.highlighted-text {
-  color: $secondary-color;
-}
-
-.bottom-border {
-  border: none;
-  border-bottom: 2px solid #000;
-  outline: none;
-  box-shadow: none;
-}
 .message-container {
   margin-top: 200px;
+  .bottom-border {
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    box-shadow: none;
+  }
 }
 </style>
