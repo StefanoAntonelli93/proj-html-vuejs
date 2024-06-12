@@ -17,6 +17,17 @@
   box-shadow: 5px 4px 35px 4px rgba(11, 218, 161, 0.5);
 }
 
+.black-button {
+  display: inline;
+  padding: 15px 30px;
+  border-radius: 30px;
+  background: linear-gradient(90deg,
+      $primary-color 0%,
+      black 100%);
+  color: white;
+  cursor: pointer;
+}
+
 .fancy-input {
   display: inline;
   padding: 15px 30px;
