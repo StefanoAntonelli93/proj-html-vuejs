@@ -3,6 +3,7 @@ import Separator from '../components/Separator.vue';
 import WhiteSeparator from '../components/WhiteSeparator.vue';
 import TitlePage from '../components/TitlePage.vue';
 import ServiceCard from '../components/ServiceCard.vue';
+import OurTeam from '../components/OurTeam.vue';
 
 export default {
     data() {
@@ -33,6 +34,7 @@ export default {
         Separator,
         WhiteSeparator,
         ServiceCard,
+        OurTeam,
     }
 }
 
@@ -79,6 +81,9 @@ export default {
                 </div>
             </div>
         </div>
+    </section>
+    <section>
+        <OurTeam></OurTeam>
     </section>
 </template>
 
