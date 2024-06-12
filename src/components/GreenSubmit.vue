@@ -6,11 +6,13 @@ export default {
 <template>
   <div class="container">
     <div
-      class="content bg-dark text-center d-flex flex-column justify-content-center gap-5 green-gradient"
+      class="content text-center d-flex flex-column justify-content-center gap-5 green-gradient"
     >
       <div>
-        <p class="text-body-tertiary">What Are You Waiting for?</p>
-        <div class="h3 text-white fw-semibold mb-4">Let's Talk About Work</div>
+        <p class="text-body-tertiary fs-5 fw-semibold">
+          What Are You Waiting for?
+        </p>
+        <div class="h2 text-white fw-semibold mb-4">Let's Talk About Work</div>
       </div>
       <div>
         <div class="button">START NOW</div>

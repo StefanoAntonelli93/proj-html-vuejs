@@ -38,6 +38,8 @@ export default {
 .content {
   height: 400px;
   border-radius: 20px;
+  -webkit-box-shadow: 5px 4px 35px 4px rgba(126, 126, 126, 0.5);
+  box-shadow: 5px 4px 35px 4px rgba(73, 73, 73, 0.5);
 }
 .form-control {
   padding: 15px 30px;
