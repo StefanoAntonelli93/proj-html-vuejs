@@ -44,8 +44,8 @@ export default {
     width: 100%;
     background: linear-gradient(to top,
             $section-color 0%,
-            $section-color 50%,
-            white 50%,
+            $section-color 60%,
+            white 60%,
             white 100%);
     padding: 200px 0 150px 0;
 
