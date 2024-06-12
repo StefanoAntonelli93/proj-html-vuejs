@@ -17,7 +17,7 @@ export default {
           aria-describedby="button-addon2"
         />
         <button
-          class="btn btn-outline-secondary fw-semibold"
+          class="btn btn-outline-secondary fw-bold"
           type="button"
           id="button-addon2"
         >
@@ -27,4 +27,9 @@ export default {
     </div>
   </div>
 </template>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.content {
+  height: 300px;
+  border-radius: 20px;
+}
+</style>
