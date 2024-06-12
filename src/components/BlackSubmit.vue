@@ -5,13 +5,15 @@ export default {
 </script>
 <template>
   <div class="container">
-    <div class="content bg-dark text-center d-flex flex-column justify-content-center gap-5">
+    <div
+      class="content bg-dark text-center d-flex flex-column justify-content-center gap-5"
+    >
       <div>
         <p class="text-secondary fw-semibold fs-5">Are You Ready?</p>
         <div class="h2 text-white fw-semibold mb-4">Start a New Project</div>
       </div>
       <div class="fancy-input d-flex justify-content-between">
-        <input placeholder="Enter your email address" type="text">
+        <input placeholder="Enter your email address" type="text" />
         <span>SUBMIT</span>
       </div>
 
@@ -33,6 +35,7 @@ export default {
   border-radius: 20px;
   -webkit-box-shadow: 5px 4px 35px 4px rgba(126, 126, 126, 0.5);
   box-shadow: 5px 4px 35px 4px rgba(73, 73, 73, 0.5);
+  padding: 80px;
 }
 
 .form-control {
