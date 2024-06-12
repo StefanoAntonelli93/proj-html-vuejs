@@ -12,11 +12,10 @@ export default {
 
 <template>
   <!-- title -->
-
   <TitlePage :titlePage="'Contacts Page'"></TitlePage>
 
   <!-- map -->
-  <div class="section-map position-relative">
+  <div class="map-container">
     <div class="map text-center border mt-5">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172332.7219707041!2d-74.07022514757855!3d40.7520689889307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585500e85589%3A0x18f39d1f8ee2a312!2sNew%20York%20Marriott%20Marquis!5e0!3m2!1sit!2sit!4v1718118337398!5m2!1sit!2sit"
@@ -29,7 +28,7 @@ export default {
       ></iframe>
     </div>
     <!-- info card -->
-    <div class="info-card position-absolute">
+    <div class="info-card">
       <div class="container d-flex justify-content-between gap-4">
         <div class="col d-flex gap-2 p-5 shadows">
           <div class="align-self-center">
@@ -73,6 +72,7 @@ export default {
       </div>
     </div>
   </div>
+
   <!-- send message -->
   <div class="p-5">
     <div class="row justify-content-around align-items-center">
@@ -146,26 +146,44 @@ export default {
 
 <style scoped lang="scss">
 @use "../assets/scss/partials/_variables.scss" as *;
+
+.map-container {
+  position: relative;
+}
+
+.map {
+  position: relative;
+}
+
+.info-card {
+  position: absolute;
+  top: 500px; /* Adjust according to your needs */
+  left: 20px; /* Adjust according to your needs */
+  width: calc(100% - 40px); /* Adjust according to your needs */
+  // background: rgba(
+  //   255,
+  //   255,
+  //   255
+  // ); /* Add a background color with some opacity if needed */
+  z-index: 10; /* Ensure it appears above the map */
+}
+
 .shadows {
+  background-color: white;
   -webkit-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
 }
+
 .icon,
 .highlighted-text {
   color: $secondary-color;
 }
+
 .bottom-border {
   border: none;
   border-bottom: 2px solid #000;
   outline: none;
   box-shadow: none;
-}
-.info-card {
-  z-index: 99;
-  bottom: -80px;
-  background-color: white;
-  left: 50%;
-  transform: translateX(-50%);
 }
 </style>
