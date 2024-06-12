@@ -4,6 +4,7 @@ import WhiteSeparator from '../components/WhiteSeparator.vue';
 import TitlePage from '../components/TitlePage.vue';
 import ServiceCard from '../components/ServiceCard.vue';
 import OurTeam from '../components/OurTeam.vue';
+import ContactUsSection from '../components/ContactUsSection.vue';
 
 export default {
     data() {
@@ -35,6 +36,7 @@ export default {
         WhiteSeparator,
         ServiceCard,
         OurTeam,
+        ContactUsSection
     }
 }
 
@@ -84,6 +86,9 @@ export default {
     </section>
     <section>
         <OurTeam></OurTeam>
+    </section>
+    <section>
+        <ContactUsSection></ContactUsSection>
     </section>
 </template>
 
