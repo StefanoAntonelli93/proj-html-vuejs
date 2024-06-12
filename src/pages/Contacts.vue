@@ -138,7 +138,9 @@ export default {
             rows="3"
           ></textarea>
         </div>
-        <div class="button py-3 fw-bold">SEND NOW</div>
+        <div class="d-flex justify-content-end">
+          <div class="button shadow-button-green py-3 fw-bold">SEND NOW</div>
+        </div>
       </div>
     </div>
   </div>
