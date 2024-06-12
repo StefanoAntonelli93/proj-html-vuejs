@@ -20,18 +20,33 @@ export default {
 
 <template>
     <div class="card-image" :style="setBgImg">
-        <p>{{ card.name }}</p>
-        <p>{{ card.role }}</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis possimus veritatis atque, quisquam
-            accusantium nisi commodi velit quos esse quibusdam tenetur, inventore delectus a eaque qui dolor praesentium
-            porro nobis.
-        </p>
+        <div class="card-content">
+            <p>{{ card.name }}</p>
+            <p>{{ card.role }}</p>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Conson, there live the blind
+                texts. Separated they live in Bookmarksgrove right at the coast of the Semantics...
+            </p>
+        </div>
+
     </div>
 </template>
 
-<style>
+<style scoped lang="scss">
 .card-image {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
     background-image: var(--background-image);
     background-size: cover;
+    background-position: center;
+
+    .card-content {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
 }
 </style>
