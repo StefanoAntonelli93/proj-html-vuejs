@@ -31,14 +31,8 @@ export default {
   <ContactsMessage />
 </template>
 
-<style scoped lang="scss">
-@use "../assets/scss/partials/_variables.scss" as *;
-
+<style scoped>
 .map-container {
   position: relative;
-
-  .map {
-    position: relative;
-  }
 }
 </style>
