@@ -1,29 +1,11 @@
+// importo bootstrap
+@use "bootstrap/scss/bootstrap" as *;
 // importo tutte le partials nel main.scss
 @use "./partials/reset" as *;
 @use "./partials/variables" as *;
 @use "./partials/mixin" as *;
-@use "./partials/commons" as *;
 @use "./partials/utilites" as *;
 @use "./partials/typography" as *;
-
-@import "bootstrap";
-
+@use "./partials/commons" as *;
+// importo font
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-
-body {
-  font-family: "Quicksand", sans-serif;
-  color: #393939;
-}
-.h2 {
-  font-weight: 600;
-  font-size: 3.3rem;
-  color: #202020;
-}
-.h1 {
-  font-weight: 700;
-  font-size: 4rem;
-}
-.h3 {
-  font-weight: 500;
-  font-size: 1.8rem;
-}
