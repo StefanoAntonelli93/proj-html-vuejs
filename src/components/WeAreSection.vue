@@ -41,6 +41,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../assets/scss/partials/variables' as *;
+
 .we-are {
     margin: 130px 0;
     padding: 130px 10px;
