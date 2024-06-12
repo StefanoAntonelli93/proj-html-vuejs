@@ -74,8 +74,8 @@ export default {
   </div>
 
   <!-- send message -->
-  <div class="p-5">
-    <div class="row justify-content-around align-items-center">
+  <div class="container message-container">
+    <div class="row justify-content-between align-items-center gap-2">
       <div class="col-4">
         <div class="content py-5">
           <div class="h2">
@@ -180,5 +180,8 @@ export default {
   border-bottom: 2px solid #000;
   outline: none;
   box-shadow: none;
+}
+.message-container {
+  margin-top: 200px;
 }
 </style>
