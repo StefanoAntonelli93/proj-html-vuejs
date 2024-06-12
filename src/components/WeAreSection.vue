@@ -3,11 +3,6 @@ import Separator from '../components/Separator.vue';
 
 export default {
     name: 'WeAreSection',
-    data() {
-        return {
-
-        }
-    },
 
     components: {
         Separator

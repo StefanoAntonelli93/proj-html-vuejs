@@ -1,10 +1,17 @@
 <script>
+// import store
+import { store } from "./store";
 // import components
 import HeaderApp from "./components/HeaderApp.vue";
 import FooterApp from "./components/FooterApp.vue";
 
 export default {
   name: "App",
+  data() {
+    return {
+      store
+    }
+  },
 
   components: {
     HeaderApp,

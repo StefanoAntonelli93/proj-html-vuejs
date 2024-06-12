@@ -2,28 +2,13 @@
 import ServiceCard from '../components/ServiceCard.vue';
 import WhiteSeparator from '../components/WhiteSeparator.vue';
 
+import { store } from '../store';
+
 export default {
     name: 'OurVisionSection',
     data() {
         return {
-            cardData: [
-                {
-                    icon: 'fa-solid fa-database',
-                    name: 'Virtual Document'
-                },
-                {
-                    icon: 'fa-solid fa-money-bill-1-wave',
-                    name: 'Flexible Payments'
-                },
-                {
-                    icon: 'fa-solid fa-gauge-high',
-                    name: 'SEO Tools'
-                },
-                {
-                    icon: 'fa-regular fa-gem',
-                    name: 'UI Design'
-                }
-            ]
+            store
         }
     },
 
@@ -41,7 +26,7 @@ export default {
                 <span class="h2 text-white">Our Vision</span>
                 <WhiteSeparator></WhiteSeparator>
                 <div class="features row row-cols-4 g-5">
-                    <div class="col" v-for="card in cardData">
+                    <div class="col" v-for="card in store.cardData">
                         <ServiceCard :cardName="card.name" :iconClass="card.icon"></ServiceCard>
                     </div>
                 </div>
