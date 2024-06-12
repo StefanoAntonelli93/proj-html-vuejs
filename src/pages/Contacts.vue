@@ -157,15 +157,10 @@ export default {
 
 .info-card {
   position: absolute;
-  top: 500px; /* Adjust according to your needs */
-  left: 20px; /* Adjust according to your needs */
-  width: calc(100% - 40px); /* Adjust according to your needs */
-  // background: rgba(
-  //   255,
-  //   255,
-  //   255
-  // ); /* Add a background color with some opacity if needed */
-  z-index: 10; /* Ensure it appears above the map */
+  top: 450px;
+  left: 20px;
+  width: calc(100% - 40px);
+  z-index: 10;
 }
 
 .shadows {
