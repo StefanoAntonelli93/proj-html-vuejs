@@ -8,7 +8,7 @@ export default {
     <div class="content p-5 bg-dark text-center p-3">
       <p class="text-secondary fw-semibold">Are You Ready?</p>
       <div class="h3 text-white fw-semibold">Start a New Project</div>
-      <div class="input-group mb-3 mt-5">
+      <div class="input-group p-5">
         <input
           type="text"
           class="form-control"
