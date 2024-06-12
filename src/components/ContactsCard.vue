@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "contactCard",
+  name: "contactsCard",
 };
 </script>
 <template>
