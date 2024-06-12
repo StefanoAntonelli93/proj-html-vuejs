@@ -4,6 +4,7 @@ import Separator from "../components/Separator.vue";
 import ContactsCard from "../components/ContactsCard.vue";
 import ContactsMap from "../components/ContactsMap.vue";
 import ContactsMessage from "../components/ContactsMessage.vue";
+import BlackSubmit from "../components/BlackSubmit.vue";
 
 export default {
   components: {
@@ -12,6 +13,7 @@ export default {
     ContactsCard,
     ContactsMap,
     ContactsMessage,
+    BlackSubmit,
   },
 };
 </script>
@@ -29,6 +31,7 @@ export default {
 
   <!-- send message -->
   <ContactsMessage />
+  <BlackSubmit />
 </template>
 
 <style scoped>
