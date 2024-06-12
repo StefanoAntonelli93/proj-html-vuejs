@@ -5,6 +5,7 @@ import OurTeam from '../components/OurTeam.vue';
 import ContactUsSection from '../components/ContactUsSection.vue';
 import OurVisionSection from '../components/OurVisionSection.vue';
 import WeAreSection from '../components/WeAreSection.vue';
+import PartnerSection from '../components/PartnerSection.vue';
 
 export default {
     data() {
@@ -18,7 +19,8 @@ export default {
         OurTeam,
         ContactUsSection,
         OurVisionSection,
-        WeAreSection
+        WeAreSection,
+        PartnerSection
     }
 }
 
@@ -39,8 +41,7 @@ export default {
     <section>
         <ContactUsSection></ContactUsSection>
     </section>
+    <section>
+        <PartnerSection></PartnerSection>
+    </section>
 </template>
-
-<style scoped lang="scss">
-@use '../assets/scss/partials/variables' as *;
-</style>

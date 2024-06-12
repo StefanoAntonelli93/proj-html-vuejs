@@ -1,6 +1,5 @@
 <script>
 import Separator from './Separator.vue';
-import WhiteSeparator from './WhiteSeparator.vue';
 import OurTeamCardList from './OurTeamCardList.vue'
 
 export default {
