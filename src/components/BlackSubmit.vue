@@ -5,7 +5,7 @@ export default {
 </script>
 <template>
   <div class="container">
-    <div class="content bg-dark text-center d-flex flex-column justify-content-center gap-5">
+    <div class="content text-center d-flex flex-column justify-content-center gap-5">
       <div>
         <p class="text-secondary fw-semibold fs-5">Are You Ready?</p>
         <div class="h2 text-white fw-semibold mb-4">Start a New Project</div>
@@ -29,6 +29,9 @@ export default {
 @use "../assets/scss/partials/_variables.scss" as *;
 
 .content {
+  background: linear-gradient(90deg,
+      $primary-color 0%,
+      black 100%);
   height: 400px;
   border-radius: 20px;
   -webkit-box-shadow: 5px 4px 35px 4px rgba(126, 126, 126, 0.5);
