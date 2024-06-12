@@ -19,8 +19,8 @@ export default {
   <TitlePage :titlePage="'Contacts Page'"></TitlePage>
 
   <!-- map -->
-  <div class="map-container">
-    <ContactsMap />
+  <div class="map-container mt-5">
+    <ContactsMap myWidth="100%" myHeight="600px" />
     <!-- info card -->
     <ContactsCard />
   </div>
