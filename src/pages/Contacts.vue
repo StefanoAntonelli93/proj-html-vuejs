@@ -33,8 +33,12 @@ export default {
 
   <!-- send message -->
   <ContactsMessage />
-  <BlackSubmit />
-  <GreenSubmit />
+  <div>
+    <div class="container">
+      <BlackSubmit />
+      <GreenSubmit />
+    </div>
+  </div>
 </template>
 
 <style scoped>
