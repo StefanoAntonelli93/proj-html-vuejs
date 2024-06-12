@@ -5,31 +5,53 @@ export default {
 </script>
 <template>
   <div class="container">
-    <div class="content p-5 bg-dark text-center p-3">
-      <p class="text-secondary fw-semibold">Are You Ready?</p>
-      <div class="h3 text-white fw-semibold">Start a New Project</div>
-      <div class="input-group p-5">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Recipient's username"
-          aria-label="Recipient's username"
-          aria-describedby="button-addon2"
-        />
-        <button
-          class="btn btn-outline-secondary fw-bold"
-          type="button"
-          id="button-addon2"
-        >
-          SUBMIT
-        </button>
+    <div
+      class="content bg-dark text-center d-flex flex-column justify-content-center gap-5"
+    >
+      <div>
+        <p class="text-secondary fw-semibold fs-5">Are You Ready?</p>
+        <div class="h2 text-white fw-semibold mb-4">Start a New Project</div>
+      </div>
+      <div>
+        <div class="input-group px-5">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Recipient's username"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn btn-outline-secondary fw-bold"
+            type="button"
+            id="button-addon2"
+          >
+            SUBMIT
+          </button>
+        </div>
       </div>
     </div>
   </div>
 </template>
 <style scoped lang="scss">
+@use "../assets/scss/partials/_variables.scss" as *;
 .content {
-  height: 300px;
+  height: 400px;
   border-radius: 20px;
+}
+.form-control {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #3b3b3b;
+  opacity: 0.9;
+  border: none;
+  &::placeholder {
+    color: $secondary-text-color;
+  }
+}
+.btn {
+  border-radius: 30px;
+  border: none;
+  background-color: none;
 }
 </style>

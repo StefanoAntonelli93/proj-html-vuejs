@@ -5,10 +5,14 @@ export default {
 </script>
 <template>
   <div class="container">
-    <div class="content p-5 bg-success text-center p-3">
-      <p class="text-body-tertiary">What Are You Waiting for?</p>
-      <div class="h3 text-white fw-semibold">Let's Talk About Work</div>
-      <div class="p-5">
+    <div
+      class="content bg-dark text-center d-flex flex-column justify-content-center gap-5 green-gradient"
+    >
+      <div>
+        <p class="text-body-tertiary">What Are You Waiting for?</p>
+        <div class="h3 text-white fw-semibold mb-4">Let's Talk About Work</div>
+      </div>
+      <div>
         <div class="button">START NOW</div>
       </div>
     </div>
@@ -16,6 +20,9 @@ export default {
 </template>
 <style scoped lang="scss">
 .content {
-  height: 300px;
+  height: 400px;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 4px 35px 4px rgba(11, 218, 161, 0.5);
+  box-shadow: 5px 4px 35px 4px rgba(11, 218, 161, 0.5);
 }
 </style>
