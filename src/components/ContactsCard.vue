@@ -63,7 +63,7 @@ export default {
 @use "../assets/scss/partials/_variables.scss" as *;
 .info-card {
   position: absolute;
-  top: 450px;
+  top: 500px;
   left: 20px;
   width: calc(100% - 40px);
   z-index: 10;
