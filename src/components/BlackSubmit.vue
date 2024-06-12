@@ -36,7 +36,7 @@ export default {
   border-radius: 20px;
   -webkit-box-shadow: 5px 4px 35px 4px rgba(126, 126, 126, 0.5);
   box-shadow: 5px 4px 35px 4px rgba(73, 73, 73, 0.5);
-  padding: 80px;
+  padding: 60px;
 }
 
 .form-control {
