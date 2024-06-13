@@ -11,7 +11,3 @@ https://docs.google.com/document/d/1rRrC9Y8h5Nn_-rWcDqHvL2Dyo9RE_uL6hA93c7UMhzo/
 Annarita
 Gianluigi
 Stefano
-
-# FAQ
-
-- gestione dei font in typography non funziona, ordine dei file? import/use qual'è la priorità?
