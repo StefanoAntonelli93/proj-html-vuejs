@@ -1,5 +1,6 @@
 <script>
 
+import HomeCarousel from '../components/HomeCarousel.vue';
 import PartnerSection from '../components/PartnerSection.vue';
 import HomeSupport from '../components/HomeSupport.vue';
 import HomeInfoCard from '../components/HomeInfoCard.vue';
@@ -9,6 +10,7 @@ import HomeStatistics from '../components/HomeStatistics.vue';
 export default {
     name: 'Home',
     components: {
+        HomeCarousel,
         PartnerSection,
         HomeSupport,
         HomeInfoCard,
@@ -20,21 +22,12 @@ export default {
 </script>
 
 <template>
+    
     <!--jumbo-->
-    <div class="container-fluid">
-        <div class="container-fluid">
+    <section>
+        <HomeCarousel />
+    </section>
 
-            <div class="row">
-                <div class="col-8">
-
-                </div>
-                <div class="col-4">
-
-                </div>
-            </div>
-
-        </div>
-    </div>
 
     <!--we are-->
     <section>

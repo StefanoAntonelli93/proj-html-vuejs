@@ -114,5 +114,21 @@ export const store = reactive({
                 'Exceptional Design'
             ]
         },
-    ]
+    ],
+    carouselInfo: [
+        {
+            title: 'We are a Web Design Agency',
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/img1-1644x1644.jpg',
+        },
+
+        {
+            title: 'A Group of Expert Planners',
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/img2-1644x1644.jpg',
+        },
+
+        {
+            title: 'Focus on Your Business',
+            imageUrl: 'https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2022/04/img3-1644x1644.jpg',
+        }
+    ],
 });
