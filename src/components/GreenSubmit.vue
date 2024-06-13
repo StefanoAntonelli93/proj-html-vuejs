@@ -5,9 +5,7 @@ export default {
 </script>
 <template>
   <div class="container">
-    <div
-      class="content text-center d-flex flex-column justify-content-center gap-5 green-gradient"
-    >
+    <div class="content text-center d-flex flex-column justify-content-center gap-5 green-gradient">
       <div>
         <p class="text-body-tertiary fs-5 fw-semibold">
           What Are You Waiting for?
@@ -15,7 +13,7 @@ export default {
         <div class="h2 text-white fw-semibold mb-4">Let's Talk About Work</div>
       </div>
       <div>
-        <div class="button">START NOW</div>
+        <div class="black-button">START NOW</div>
       </div>
     </div>
   </div>
