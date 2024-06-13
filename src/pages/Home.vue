@@ -6,7 +6,7 @@ import HomeSupport from '../components/HomeSupport.vue';
 import HomeInfoCard from '../components/HomeInfoCard.vue';
 import HomeOurMission from '../components/HomeOurMission.vue';
 import HomeStatistics from '../components/HomeStatistics.vue';
-import HomePastProjects from '../components/HomePastProjects.vue';
+// import HomePastProjects from '../components/HomePastProjects.vue';
 import HomeReviews from '../components/HomeReviews.vue';
 
 export default {
@@ -18,7 +18,7 @@ export default {
         HomeInfoCard,
         HomeOurMission,
         HomeStatistics,
-        HomePastProjects,
+        // HomePastProjects,
         HomeReviews,
     }
 }
@@ -26,7 +26,6 @@ export default {
 </script>
 
 <template>
-    
     <!--jumbo-->
     <section>
         <HomeCarousel />
@@ -42,7 +41,7 @@ export default {
     <section>
         <HomeOurMission />
     </section>
-    
+
     <!--past projects-->
     <section>
         <HomePastProjects />
@@ -215,4 +214,5 @@ img {
 
 .reviews {
     background-image: url('https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg');
-}</style>
+}
+</style>
