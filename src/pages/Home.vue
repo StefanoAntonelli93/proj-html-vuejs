@@ -5,7 +5,7 @@ import HomeSupport from "../components/HomeSupport.vue";
 import HomeInfoCard from "../components/HomeInfoCard.vue";
 import HomeOurMission from "../components/HomeOurMission.vue";
 import HomeStatistics from "../components/HomeStatistics.vue";
-// import HomePastProjects from '../components/HomePastProjects.vue';
+import HomePastProjects from "../components/HomePastProjects.vue";
 import HomeReviews from "../components/HomeReviews.vue";
 
 export default {
@@ -17,7 +17,7 @@ export default {
     HomeInfoCard,
     HomeOurMission,
     HomeStatistics,
-    // HomePastProjects,
+    HomePastProjects,
     HomeReviews,
   },
 };
