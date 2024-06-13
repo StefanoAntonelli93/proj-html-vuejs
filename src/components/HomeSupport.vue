@@ -51,8 +51,4 @@ export default {
 
     </div>
 </template>
-<style scoped lang="scss">
-.main-padding {
-    padding: 200px 25px;
-}
-</style>
+<style scoped lang="scss"></style>
