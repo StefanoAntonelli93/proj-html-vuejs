@@ -28,6 +28,8 @@ import { faGem } from "@fortawesome/free-regular-svg-icons";
 import { faCloudversify } from "@fortawesome/free-brands-svg-icons";
 import { faTabletScreenButton } from "@fortawesome/free-solid-svg-icons";
 import { faStopwatch20 } from "@fortawesome/free-solid-svg-icons";
+import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import { faCaretLeft } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -45,7 +47,9 @@ library.add(
   faGem,
   faCloudversify,
   faTabletScreenButton,
-  faStopwatch20
+  faStopwatch20,
+  faCaretRight,
+  faCaretLeft
 );
 
 createApp(App)
