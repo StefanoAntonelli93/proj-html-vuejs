@@ -13,16 +13,26 @@ export default {
     <div class="background">
         <div class="overlay">
             <div class="content  d-flex flex-column gap-5 align-items-center">
-                <div class="h1 mb-5 text-white text-center">PLEASE SEND US YOUR <span
-                        class="secondary-color">QUESTIONS</span> AND
-                    WE CAN <span class="secondary-color">HELP</span> YOU BETTER
+                <div class="h1 secondary-color">“</div>
+                <div class="h3 mb-5 text-white text-center">When it comes to barbequing, there are two main schools of
+                    thought for the techniques that you can use. Freshly scrambled eggs with applewood smoked bacon - are
+                    amazing!
                 </div>
-                <div class="button">CONTACT US</div>
+                <div class="client-section">
+                    <div class="circle">
+                        <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/businesswoman-analysing-document-P8WSNMC-150x150.jpg"
+                            class="client-image"></img>
+                    </div>
+                    <div class="client-info">
+                        <div class="h3 secondary-color">LISSA DURBIN</div>
+                        <div>Client</div>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
-
-    </div>
 </template>
 
 <style scoped lang="scss">
