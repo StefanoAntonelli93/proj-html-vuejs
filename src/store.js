@@ -76,5 +76,43 @@ export const store = reactive({
             icon: 'fa-regular fa-gem',
             name: 'UI Design'
         }
+    ],
+    supportCard: [
+        {
+            title: 'DESIGNING',
+            desc: 'All Designs',
+            value: '$ 10 /Design',
+            feats: [
+                'Creative Design Enabled',
+                'Vibrant Color Usage',
+                'Eye Catching Design',
+                'Extreme Typography',
+                'Exceptional Design'
+            ]
+        },
+        {
+            title: 'DESIGNING',
+            desc: 'All Designs',
+            value: '$ 10 /Design',
+            feats: [
+                'Creative Design Enabled',
+                'Vibrant Color Usage',
+                'Eye Catching Design',
+                'Extreme Typography',
+                'Exceptional Design'
+            ]
+        },
+        {
+            title: 'DESIGNING',
+            desc: 'All Designs',
+            value: '$ 10 /Design',
+            feats: [
+                'Creative Design Enabled',
+                'Vibrant Color Usage',
+                'Eye Catching Design',
+                'Extreme Typography',
+                'Exceptional Design'
+            ]
+        },
     ]
 });

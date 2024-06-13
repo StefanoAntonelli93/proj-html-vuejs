@@ -2,25 +2,20 @@
 
 export default {
     name: "HomeSupportCard",
+
+    props: ['card']
 };
 </script>
 <template>
-    ciao
-
-
-    <!-- <h5>
-        DESIGNING
-    </h5>
+    <div class="h3">
+        {{ card.title }}
+    </div>
     <p>
-        All Designs
+        {{ card.desc }}
     </p>
-    <h2>$ 10 / Design</h2>
-    <ul>
-        <li>Creative Design Enabled</li>
-        <li>Vibrant Color Usage</li>
-        <li>Eye Catching Design</li>
-        <li>Extreme Typography</li>
-        <li>Exceptional Design</li>
-    </ul> -->
+    <h2>{{ card.value }}</h2>
+    <div v-for="feat in card.feats">
+        {{ feat }}
+    </div>
 </template>
 <style scoped lang="scss"></style>

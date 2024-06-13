@@ -1,9 +1,18 @@
 <script>
+import { store } from '../store';
+
 import Separator from './Separator.vue';
 import HomeSupportCard from './HomeSupportCard.vue'
 
 export default {
     name: "HomeSupport",
+
+    data() {
+        return {
+            store
+        }
+    },
+
     components: {
         Separator,
         HomeSupportCard
@@ -31,42 +40,10 @@ export default {
             </div>
             <div class="col-8">
                 <div class="row">
-                    <div class="col text-center">
+                    <div v-for="card in store.supportCard" class="col">
                         <div class="content">
-                            <HomeSupportCard></HomeSupportCard>
+                            <HomeSupportCard :card="card"></HomeSupportCard>
                         </div>
-                    </div>
-                    <div class="col text-center">
-                        <h5>
-                            DEVELOPMENT
-                        </h5>
-                        <p>
-                            WordPress Projects
-                        </p>
-                        <h2>$ 15 / Design</h2>
-                        <ul>
-                            <li>Creative Design Enabled</li>
-                            <li>Vibrant Color Usage</li>
-                            <li>Eye Catching Design</li>
-                            <li>Extreme Typography</li>
-                            <li>Exceptional Design</li>
-                        </ul>
-                    </div>
-                    <div class="col text-center">
-                        <h5>
-                            SEO
-                        </h5>
-                        <p>
-                            Web Products
-                        </p>
-                        <h2>$ 10 / Design</h2>
-                        <ul>
-                            <li>Creative Design Enabled</li>
-                            <li>Vibrant Color Usage</li>
-                            <li>Eye Catching Design</li>
-                            <li>Extreme Typography</li>
-                            <li>Exceptional Design</li>
-                        </ul>
                     </div>
                 </div>
             </div>
