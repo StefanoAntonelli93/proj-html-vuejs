@@ -50,10 +50,6 @@ export default {
     .text-area {
         padding: 50px 50px 0 0;
         width: 43%;
-
-        h2 {
-            font-size: 3.5rem;
-        }
     }
 
     .img-area {
