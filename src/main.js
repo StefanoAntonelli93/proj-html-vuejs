@@ -28,21 +28,21 @@ import { faGem } from "@fortawesome/free-regular-svg-icons";
 
 /* add icons to the library */
 library.add(
-    faFacebookF,
-    faTwitter,
-    faPinterestP,
-    faMagnifyingGlass,
-    faPhone,
-    faLocationDot,
-    faPhoneVolume,
-    faStopwatch,
-    faDatabase,
-    faMoneyBill1Wave,
-    faGaugeHigh,
-    faGem
+  faFacebookF,
+  faTwitter,
+  faPinterestP,
+  faMagnifyingGlass,
+  faPhone,
+  faLocationDot,
+  faPhoneVolume,
+  faStopwatch,
+  faDatabase,
+  faMoneyBill1Wave,
+  faGaugeHigh,
+  faGem
 );
 
 createApp(App)
-    .use(router)
-    .component("font-awesome-icon", FontAwesomeIcon)
-    .mount("#app");
+  .use(router)
+  .component("font-awesome-icon", FontAwesomeIcon)
+  .mount("#app");
