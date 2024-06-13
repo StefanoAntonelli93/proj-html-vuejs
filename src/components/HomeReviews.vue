@@ -21,7 +21,7 @@ export default {
                 <div class="client-section">
                     <div class="circle">
                         <img src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/businesswoman-analysing-document-P8WSNMC-150x150.jpg"
-                            class="client-image"></img>
+                            class="client-image">
                     </div>
                     <div class="client-info">
                         <div class="h3 secondary-color">LISSA DURBIN</div>
@@ -33,6 +33,7 @@ export default {
             </div>
 
         </div>
+    </div>
 </template>
 
 <style scoped lang="scss">
