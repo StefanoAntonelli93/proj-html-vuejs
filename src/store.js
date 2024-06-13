@@ -81,7 +81,9 @@ export const store = reactive({
         {
             title: 'DESIGNING',
             desc: 'All Designs',
-            value: '$ 10 /Design',
+            value: '10',
+            type: '/Design',
+            theme: 'black-gradient',
             feats: [
                 'Creative Design Enabled',
                 'Vibrant Color Usage',
@@ -93,7 +95,9 @@ export const store = reactive({
         {
             title: 'DEVELOPMENT',
             desc: 'WordPress Projects',
-            value: '$ 10 /Design',
+            value: '15',
+            type: '/Design',
+            theme: 'green-gradient',
             feats: [
                 'Creative Design Enabled',
                 'Vibrant Color Usage',
@@ -105,7 +109,9 @@ export const store = reactive({
         {
             title: 'SEO',
             desc: 'Web Products',
-            value: '$ 10 /Design',
+            value: '10',
+            type: '/Product',
+            theme: 'black-gradient',
             feats: [
                 'Creative Design Enabled',
                 'Vibrant Color Usage',

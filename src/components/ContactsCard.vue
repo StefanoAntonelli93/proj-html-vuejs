@@ -18,10 +18,7 @@ export default {
       <div class="container d-flex justify-content-between gap-4">
         <div class="col d-flex gap-2 p-5 shadows">
           <div class="align-self-center">
-            <font-awesome-icon
-              class="icon fa-5x"
-              icon="fa-solid fa-location-dot"
-            />
+            <font-awesome-icon class="icon fa-5x" icon="fa-solid fa-location-dot" />
           </div>
           <div class="content p-4">
             <div class="fw-semibold py-3 fs-3">ADDRESS:</div>
@@ -30,10 +27,7 @@ export default {
         </div>
         <div class="col d-flex gap-2 p-5 shadows">
           <div class="align-self-center">
-            <font-awesome-icon
-              class="icon fa-5x"
-              icon="fa-solid fa-phone-volume"
-            />
+            <font-awesome-icon class="icon fa-5x" icon="fa-solid fa-phone-volume" />
           </div>
           <div class="content p-4">
             <div class="fw-semibold py-3 fs-3">PHONE:</div>
@@ -42,10 +36,7 @@ export default {
         </div>
         <div class="col d-flex gap-2 p-5 shadows">
           <div class="align-self-center">
-            <font-awesome-icon
-              class="icon fa-5x"
-              icon="fa-solid fa-stopwatch"
-            />
+            <font-awesome-icon class="icon fa-5x" icon="fa-solid fa-stopwatch" />
           </div>
           <div class="content p-3">
             <div class="fw-semibold py-3 fs-3">WORK HOURS:</div>
@@ -61,18 +52,14 @@ export default {
 </template>
 <style scoped lang="scss">
 @use "../assets/scss/partials/_variables.scss" as *;
+
 .info-card {
   position: absolute;
   top: 500px;
   left: 20px;
   width: calc(100% - 40px);
   z-index: 10;
-  .shadows {
-    background-color: white;
-    -webkit-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 10px 37px 2px rgba(0, 0, 0, 0.3);
-  }
+
   .icon,
   .highlighted-text {
     color: $secondary-color;
@@ -87,6 +74,7 @@ export default {
     transform: translateY(100%);
     opacity: 0;
   }
+
   to {
     transform: translateY(0);
     opacity: 1;

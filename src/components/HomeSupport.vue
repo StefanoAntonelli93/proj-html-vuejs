@@ -23,7 +23,7 @@ export default {
     <div class="container-fluid main-padding bg-color-section">
 
         <div class="row">
-            <div class="col-4">
+            <div class="col-4 d-flex align-items-center">
                 <div class="content d-flex flex-column gap-4 pe-5">
                     <div class="h2">
                         With <span class="secondary-color">Live Chat
@@ -36,7 +36,6 @@ export default {
                         blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.
                     </p>
                 </div>
-
             </div>
             <div class="col-8">
                 <div class="row">
