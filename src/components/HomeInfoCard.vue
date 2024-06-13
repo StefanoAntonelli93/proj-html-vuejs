@@ -20,12 +20,13 @@ export default {
         <Separator class="py-5" />
         <div class="button">VIEW ALL</div>
       </div>
+      <!-- cards -->
       <div class="col-8">
         <div class="container">
           <div class="content">
-            <div class="row row-cols-2">
-              <div class="col mb-5">
-                <div class="card p-5">
+            <div class="row row-cols-2 g-4">
+              <div class="col">
+                <div class="card p-5 mb-2">
                   <div>
                     <font-awesome-icon
                       class="fa-4x mb-4 icon"
@@ -96,10 +97,12 @@ export default {
 .card {
   border-radius: 10px;
   -webkit-box-shadow: 5px 4px 35px 4px rgba(126, 126, 126, 0.5);
-  box-shadow: 5px 4px 35px 4px rgba(73, 73, 73, 0.5);
+  box-shadow: 5px 4px 35px 4px rgba(73, 73, 73, 0.2);
   &:hover {
     display: block;
     color: white;
+    -webkit-box-shadow: 5px 4px 35px 4px rgba(126, 126, 126, 0.5);
+    box-shadow: 5px 4px 35px 4px rgba(0, 217, 166, 0.5);
     background: rgb(153, 225, 94);
     background: linear-gradient(
       225deg,
