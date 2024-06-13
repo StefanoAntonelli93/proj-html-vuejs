@@ -4,6 +4,7 @@ export default {
 };
 </script>
 <template>
+    <!-- ciao -->
     <div class="container-fluid">
 
         <div class="row">
