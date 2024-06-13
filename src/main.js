@@ -25,6 +25,9 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { faMoneyBill1Wave } from "@fortawesome/free-solid-svg-icons";
 import { faGaugeHigh } from "@fortawesome/free-solid-svg-icons";
 import { faGem } from "@fortawesome/free-regular-svg-icons";
+import { faCloudversify } from "@fortawesome/free-brands-svg-icons";
+import { faTabletScreenButton } from "@fortawesome/free-solid-svg-icons";
+import { faStopwatch20 } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -39,7 +42,10 @@ library.add(
   faDatabase,
   faMoneyBill1Wave,
   faGaugeHigh,
-  faGem
+  faGem,
+  faCloudversify,
+  faTabletScreenButton,
+  faStopwatch20
 );
 
 createApp(App)
