@@ -91,8 +91,8 @@ export const store = reactive({
             ]
         },
         {
-            title: 'DESIGNING',
-            desc: 'All Designs',
+            title: 'DEVELOPMENT',
+            desc: 'WordPress Projects',
             value: '$ 10 /Design',
             feats: [
                 'Creative Design Enabled',
@@ -103,8 +103,8 @@ export const store = reactive({
             ]
         },
         {
-            title: 'DESIGNING',
-            desc: 'All Designs',
+            title: 'SEO',
+            desc: 'Web Products',
             value: '$ 10 /Design',
             feats: [
                 'Creative Design Enabled',
