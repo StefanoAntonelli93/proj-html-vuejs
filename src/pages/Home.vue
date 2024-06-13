@@ -6,6 +6,8 @@ import HomeSupport from '../components/HomeSupport.vue';
 import HomeInfoCard from '../components/HomeInfoCard.vue';
 import HomeOurMission from '../components/HomeOurMission.vue';
 import HomeStatistics from '../components/HomeStatistics.vue';
+import HomePastProjects from '../components/HomePastProjects.vue';
+import HomeReviews from '../components/HomeReviews.vue';
 
 export default {
     name: 'Home',
@@ -16,6 +18,8 @@ export default {
         HomeInfoCard,
         HomeOurMission,
         HomeStatistics,
+        HomePastProjects,
+        HomeReviews,
     }
 }
 
@@ -40,27 +44,9 @@ export default {
     </section>
     
     <!--past projects-->
-    <div class="container-fluid">
-
-        <div class="row">
-            <div class="col-6">
-                <h2>
-                    Our recentweb designs &
-                    some examples of
-                    past projects
-                </h2>
-            </div>
-            <div class="col-6">
-                <p>
-                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-                    blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-                    ocean.Separated they live in Bookmarksgrove.Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.
-                </p>
-            </div>
-        </div>
-
-    </div>
+    <section>
+        <HomePastProjects />
+    </section>
 
     <!--examples-->
     <!--DA RIEMPIRE DINAMICAMENTE-->
@@ -164,19 +150,9 @@ export default {
     </section>
 
     <!--reviews-->
-    <div class="container-fluid text-center reviews">
-        <p>
-            When it comes to barbequing, there are two main schools of thought for the techniques that you can use. Freshly
-            scrambled eggs with applewood smoked bacon - are amazing!
-        </p>
-        <img src="" alt="">
-        <h5>
-            LISSA DURBIN
-        </h5>
-        <p>
-            Client
-        </p>
-    </div>
+    <section>
+        <HomeReviews />
+    </section>
 
     <!--blog-->
     <div class="container-fluid text-center">
