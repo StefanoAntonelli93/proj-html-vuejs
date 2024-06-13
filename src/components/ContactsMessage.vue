@@ -27,7 +27,7 @@ export default {
           </p>
         </div>
       </div>
-      <!-- send message form -->
+      <!-- send message FORM -->
       <div class="col-6">
         <div class="mb-3">
           <div class="h3 fw-bold py-3">Send message</div>
@@ -72,6 +72,7 @@ export default {
             rows="3"
           ></textarea>
         </div>
+        <!-- button -->
         <div class="d-flex justify-content-end">
           <div class="button shadow-button-green py-3 fw-bold">SEND NOW</div>
         </div>
@@ -80,6 +81,7 @@ export default {
   </div>
 </template>
 <style scoped lang="scss">
+// import variables.scss
 @use "../assets/scss/partials/_variables.scss" as *;
 .message-container {
   margin-top: 300px;

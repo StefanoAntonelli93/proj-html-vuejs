@@ -21,9 +21,9 @@ export default {
 <template>
   <!-- title -->
   <TitlePage :titlePage="'Contacts Page'"></TitlePage>
-
-  <!-- map -->
+  <!-- positione relative(map) + absolute(info-card) -->
   <div class="map-container mt-5">
+    <!-- map -->
     <ContactsMap myWidth="100%" myHeight="600px" />
     <!-- info card -->
     <ContactsCard />
@@ -31,6 +31,7 @@ export default {
 
   <!-- send message -->
   <ContactsMessage />
+  <!-- submit + partner -->
   <PartnerSection />
 </template>
 

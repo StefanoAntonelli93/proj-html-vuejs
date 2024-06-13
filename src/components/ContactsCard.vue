@@ -81,6 +81,7 @@ export default {
 
 // ANIMATION
 // SLIDE-FADE
+// transizione dal basso verso l'alto in 1.5 secondi
 @keyframes slide-in {
   from {
     transform: translateY(100%);
