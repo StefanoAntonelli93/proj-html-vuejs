@@ -10,7 +10,7 @@ export default {
 <template>
   <!--we are-->
   <!--DA RIEMPIRE DINAMICAMENTE-->
-  <div class="container-fluid">
+  <div class="container">
     <div class="row align-items-center">
       <div class="col-4">
         <div class="h2">
