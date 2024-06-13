@@ -85,6 +85,8 @@ export default {
     border-radius: 20px;
   }
 }
-
+.container-fluid {
+  background-color: #fafafa;
+}
 // position image
 </style>
