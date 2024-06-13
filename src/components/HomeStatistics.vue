@@ -10,6 +10,12 @@ export default {
     <div class="row">
       <div class="col-6 text-center">
         <div class="row">
+          <div>
+            <img
+              src="https://demo.phlox.pro/business-2/wp-content/uploads/sites/57/2018/08/person-with-long-curly-hair-PZ99QM2@2x.jpg"
+              alt=""
+            />
+          </div>
           <div class="col">
             <h2>280</h2>
             <h5>PROJECTS</h5>
@@ -45,4 +51,8 @@ export default {
     </div>
   </div>
 </template>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+img {
+  width: 100%;
+}
+</style>
