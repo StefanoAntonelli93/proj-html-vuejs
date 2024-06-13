@@ -4,8 +4,7 @@ export default {
 };
 </script>
 <template>
-    <!-- ciao -->
-    <div class="container-fluid">
+    <div class="container-fluid padding-y200">
 
         <div class="row">
             <div class="col-4">
@@ -74,4 +73,8 @@ export default {
 
     </div>
 </template>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.paddin-y200 {
+    padding: 200px 0;
+}
+</style>
