@@ -50,12 +50,12 @@
 <template>
 
     <div
-        class="container-fluid ms-5 pb-5 bg-color-section"
+        class="container-fluid ps-5 pb-5 bg-color-section"
         v-for="(slide, index) in store.carouselInfo"
         v-show="currentSlide === index"
     >
 
-        <div class="row ms-5">
+        <div class="row ps-5">
 
             <div class="col position-relative">
                 <div class="content mt-5">
