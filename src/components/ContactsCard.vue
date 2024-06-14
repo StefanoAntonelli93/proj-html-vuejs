@@ -1,8 +1,10 @@
 <script>
+import { store } from "../store";
 export default {
   name: "contactsCard",
   data() {
     return {
+      store,
       showCard: false,
     };
   },
@@ -16,34 +18,16 @@ export default {
   <transition name="slide-fade">
     <div class="info-card" v-if="showCard">
       <div class="container d-flex justify-content-between gap-4">
-        <div class="col d-flex gap-2 p-5 shadows">
+        <div
+          v-for="card in store.contactCard"
+          class="col d-flex gap-2 p-5 shadows bg-white"
+        >
           <div class="align-self-center">
-            <font-awesome-icon class="icon fa-5x" icon="fa-solid fa-location-dot" />
+            <font-awesome-icon class="icon fa-5x" :icon="card.icon" />
           </div>
           <div class="content p-4">
-            <div class="fw-semibold py-3 fs-3">ADDRESS:</div>
-            <div>123 Ave, Lorem City, site Country, The World</div>
-          </div>
-        </div>
-        <div class="col d-flex gap-2 p-5 shadows">
-          <div class="align-self-center">
-            <font-awesome-icon class="icon fa-5x" icon="fa-solid fa-phone-volume" />
-          </div>
-          <div class="content p-4">
-            <div class="fw-semibold py-3 fs-3">PHONE:</div>
-            <div>(001) 123456789 - 234567891 info@phloxbusiness.com</div>
-          </div>
-        </div>
-        <div class="col d-flex gap-2 p-5 shadows">
-          <div class="align-self-center">
-            <font-awesome-icon class="icon fa-5x" icon="fa-solid fa-stopwatch" />
-          </div>
-          <div class="content p-3">
-            <div class="fw-semibold py-3 fs-3">WORK HOURS:</div>
-            <div>
-              <p>Monday-Friday 09.00-23.00</p>
-              <p>Sunday 09.00-16.00</p>
-            </div>
+            <div class="fw-semibold py-3 fs-3">{{ card.title }}</div>
+            <div>{{ card.info }}</div>
           </div>
         </div>
       </div>
